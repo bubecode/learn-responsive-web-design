@@ -74,4 +74,13 @@ img {
   padding: 1em;
 }
 
+/* Media query  */
 
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+    .col {
+        width: 95%;
+    }
+}

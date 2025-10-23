@@ -14,8 +14,20 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+
+.container {
+  width:90%;
+  border: 1px solid magenta;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
 header {
-  text-align: center;
+  /* text-align: center; */
   background: #f8f8f8;
 }
 
@@ -46,7 +58,7 @@ nav ul {
 
 nav li {
   /* border:1px solid orange; */
-  margin: 0 1em;
+  margin-left: 2em;
 }
 
 nav a {
